@@ -1,0 +1,2 @@
+nohup /usr/local/net_speeder/net_speeder venet0 "172.104.96.21" >/dev/null 2>&1 &
+nohup /usr/local/net_speeder/net_speeder venet0 "2400:8902::f03c:91ff:febd:8cf4" >/dev/null 2>&1 &

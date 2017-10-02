@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="gbk"?>
+<paras author="badcat">
+	<programpara>
+		<autostart>0</autostart>
+		<minimize>0</minimize>
+		<clientexedir>D:\download\kcptun-windows-amd64-20160906\client_windows_amd64.exe</clientexedir>
+		<autoconn enable="0">5</autoconn>
+	</programpara>
+	<clientnodes>
+		<node id="{A3CD69B2-6771-4E54-9A1E-9B9B73244339}" runstate="1" remark="">
+			<json enable="0"></json>
+			<localport allowonlylocal="0">44301</localport>
+			<kcpserverip>[2400:8902::f03c:91ff:febd:8cf4]</kcpserverip>
+			<kcpserverport>29901</kcpserverport>
+			<key enable="1">zhaowl9404</key>
+			<crypt enable="1">none</crypt>
+			<nocomp enable="0"/>
+			<datashard enable="1">10</datashard>
+			<parityshard enable="1">3</parityshard>
+			<conn enable="1"></conn>
+			<mtu enable="1">1350</mtu>
+			<sndwnd enable="1">512</sndwnd>
+			<rcvwnd enable="1">512</rcvwnd>
+			<dscp enable="1">0</dscp>
+			<autoexpire enable="1"></autoexpire>
+			<mode enable="1">normal</mode>
+			<nodelay enable="0"/>
+			<interval enable="0"></interval>
+			<resend enable="0"></resend>
+			<nc enable="0"/>
+			<acknodelay enable="0"/>
+			<keepalive enable="0"></keepalive>
+			<sockbuf enable="0"></sockbuf>
+		</node>
+		<node id="{7F2C1D6F-AD47-42C4-9342-BAEEACEFDB9B}" runstate="0" remark="">
+			<json enable="0"></json>
+			<localport allowonlylocal="0">44301</localport>
+			<kcpserverip>172.104.96.21</kcpserverip>
+			<kcpserverport>29901</kcpserverport>
+			<key enable="1">zhaowl9404</key>
+			<crypt enable="1">none</crypt>
+			<nocomp enable="0"/>
+			<datashard enable="1">10</datashard>
+			<parityshard enable="1">3</parityshard>
+			<conn enable="1"></conn>
+			<mtu enable="1">1350</mtu>
+			<sndwnd enable="1">512</sndwnd>
+			<rcvwnd enable="1">512</rcvwnd>
+			<dscp enable="1">0</dscp>
+			<autoexpire enable="1"></autoexpire>
+			<mode enable="1">normal</mode>
+			<nodelay enable="0"/>
+			<interval enable="0"></interval>
+			<resend enable="0"></resend>
+			<nc enable="0"/>
+			<acknodelay enable="0"/>
+			<keepalive enable="0"></keepalive>
+			<sockbuf enable="0"></sockbuf>
+		</node>
+	</clientnodes>
+</paras>

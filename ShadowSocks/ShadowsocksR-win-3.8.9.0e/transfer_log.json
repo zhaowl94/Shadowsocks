@@ -1,0 +1,14 @@
+{
+	"172.104.96.21" : {
+		"totalUploadBytes" : 8908918,
+		"totalDownloadBytes" : 455727937
+	},
+	"2400:8902::f03c:91ff:febd:8cf4" : {
+		"totalUploadBytes" : 6015714,
+		"totalDownloadBytes" : 987997477
+	},
+	"127.0.0.1" : {
+		"totalUploadBytes" : 4177427,
+		"totalDownloadBytes" : 516592215
+	}
+}

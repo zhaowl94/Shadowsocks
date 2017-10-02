@@ -1,0 +1,5 @@
+cd ./vpnserver
+./vpnserver stop
+
+cd ./vpnserver
+./kcptun.sh reconfig 

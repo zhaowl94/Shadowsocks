@@ -1,0 +1,12 @@
+{
+	"server":"2400:8902::f03c:91ff:febd:8cf4",
+	"local_address": "127.0.0.1",
+	"local_port":1080,
+	"port_password": {
+		"44301": "zhaowl9404",
+		"44302": "guest444"
+	},
+	"timeout":300,
+	"method":"aes-256-cfb",
+	"fast_open": false
+}

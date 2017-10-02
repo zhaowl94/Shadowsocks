@@ -1,0 +1,2 @@
+ssserver -c /root/shadowsocks-config/config.json &
+ssserver -c /root/shadowsocks-config/config6.json &
