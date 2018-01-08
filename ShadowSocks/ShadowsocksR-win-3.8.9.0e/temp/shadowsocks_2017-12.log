@@ -1,0 +1,98 @@
+[2017-12-05 14:52:13] ShadowsocksR started on port 1080
+[2017-12-05 14:57:23] [Error]connect to update server error
+[2017-12-05 14:57:23] [Error]connect to update server error
+[2017-12-05 15:22:13] [Info]Proxy server [(172.104.96.21)] HostUnreachable:套接字操作尝试一个无法连接的主机。 172.104.96.21:44301
+[2017-12-05 15:22:13] Boolean LogSocketException(System.String, System.String, System.Exception)
+Void LogException(System.Exception)
+Void ConnectCallback(System.IAsyncResult)
+Void Complete(IntPtr)
+Void CompleteCallback(System.Object)
+Void RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+Void Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+Void Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object)
+Void Complete(IntPtr)
+Void ProtectedInvokeCallback(System.Object, IntPtr)
+Void CompletionPortCallback(UInt32, UInt32, System.Threading.NativeOverlapped*)
+Void PerformIOCompletionCallback(UInt32, UInt32, System.Threading.NativeOverlapped*)
+
+[2017-12-05 15:22:13] [Info]Proxy server [(172.104.96.21)] HostUnreachable:套接字操作尝试一个无法连接的主机。 172.104.96.21:44301
+[2017-12-05 15:22:13] Boolean LogSocketException(System.String, System.String, System.Exception)
+Void LogException(System.Exception)
+Void ConnectCallback(System.IAsyncResult)
+Void Complete(IntPtr)
+Void CompleteCallback(System.Object)
+Void RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+Void Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+Void Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object)
+Void Complete(IntPtr)
+Void ProtectedInvokeCallback(System.Object, IntPtr)
+Void CompletionPortCallback(UInt32, UInt32, System.Threading.NativeOverlapped*)
+Void PerformIOCompletionCallback(UInt32, UInt32, System.Threading.NativeOverlapped*)
+
+[2017-12-05 15:22:13] [Info]Proxy server [(172.104.96.21)] HostUnreachable:套接字操作尝试一个无法连接的主机。 172.104.96.21:44301
+[2017-12-05 15:22:13] Boolean LogSocketException(System.String, System.String, System.Exception)
+Void LogException(System.Exception)
+Void ConnectCallback(System.IAsyncResult)
+Void Complete(IntPtr)
+Void CompleteCallback(System.Object)
+Void RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+Void Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+Void Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object)
+Void Complete(IntPtr)
+Void ProtectedInvokeCallback(System.Object, IntPtr)
+Void CompletionPortCallback(UInt32, UInt32, System.Threading.NativeOverlapped*)
+Void PerformIOCompletionCallback(UInt32, UInt32, System.Threading.NativeOverlapped*)
+
+[2017-12-05 15:22:13] [Info]Proxy server [(172.104.96.21)] HostUnreachable:套接字操作尝试一个无法连接的主机。 172.104.96.21:44301
+[2017-12-05 15:22:13] Boolean LogSocketException(System.String, System.String, System.Exception)
+Void LogException(System.Exception)
+Void ConnectCallback(System.IAsyncResult)
+Void Complete(IntPtr)
+Void CompleteCallback(System.Object)
+Void RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+Void Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+Void Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object)
+Void Complete(IntPtr)
+Void ProtectedInvokeCallback(System.Object, IntPtr)
+Void CompletionPortCallback(UInt32, UInt32, System.Threading.NativeOverlapped*)
+Void PerformIOCompletionCallback(UInt32, UInt32, System.Threading.NativeOverlapped*)
+
+[2017-12-05 15:22:14] [Warn]Proxy server [(172.104.96.21)] network unreachable
+[2017-12-05 15:22:14] [Warn]Proxy server [(172.104.96.21)] network unreachable
+[2017-12-05 15:22:14] [Warn]Proxy server [(172.104.96.21)] network unreachable
+[2017-12-05 15:22:14] [Warn]Proxy server [(172.104.96.21)] network unreachable
+[2017-12-05 15:22:14] [Warn]Proxy server [(172.104.96.21)] network unreachable
+[2017-12-05 15:22:14] [Warn]Proxy server [(172.104.96.21)] network unreachable
+[2017-12-05 15:22:14] [Warn]Proxy server [(172.104.96.21)] network unreachable
+[2017-12-05 15:22:14] [Warn]Proxy server [(172.104.96.21)] network unreachable
+[2017-12-05 15:22:14] [Warn]Proxy server [(172.104.96.21)] network unreachable
+[2017-12-05 15:22:14] [Warn]Proxy server [(172.104.96.21)] network unreachable
+[2017-12-05 15:22:14] [Warn]Proxy server [(172.104.96.21)] network unreachable
+[2017-12-05 15:22:14] System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Shadowsocks.Controller.Handler.BeginConnect(IPAddress ipAddress, Int32 serverPort)
+   在 Shadowsocks.Controller.Handler.Connect()
+   在 Shadowsocks.Controller.Handler.Start(Byte[] firstPacket, Int32 length)
+   在 Shadowsocks.Controller.ProxyAuthHandler.Connect()
+   在 Shadowsocks.Controller.ProxyAuthHandler.StartConnect(IAsyncResult ar)
+[2017-12-05 15:22:14] Void LogUsefulException(System.Exception)
+Void StartConnect(System.IAsyncResult)
+Void Complete(IntPtr)
+Void CompleteCallback(System.Object)
+Void RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+Void Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+Void Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object)
+Void Complete(IntPtr)
+Void ProtectedInvokeCallback(System.Object, IntPtr)
+Void CompletionPortCallback(UInt32, UInt32, System.Threading.NativeOverlapped*)
+Void PerformIOCompletionCallback(UInt32, UInt32, System.Threading.NativeOverlapped*)
+
+[2017-12-05 15:22:14] [Warn]Proxy server [(172.104.96.21)] network unreachable
+[2017-12-05 16:57:23] [Error]connect to update server error
+[2017-12-05 18:57:23] [Error]connect to update server error
+[2017-12-05 20:57:24] [Error]connect to update server error
+[2017-12-05 22:57:23] [Error]connect to update server error
+[2017-12-06 00:57:25] [Error]connect to update server error
+[2017-12-06 02:57:24] [Error]connect to update server error
+[2017-12-06 04:57:24] [Error]connect to update server error
+[2017-12-06 06:57:23] [Error]connect to update server error
+[2017-12-06 08:57:26] [Error]connect to update server error
